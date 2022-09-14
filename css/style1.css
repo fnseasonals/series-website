@@ -27,6 +27,7 @@ a {
     background-color: lightgreen;
     border-radius: 5px;
     border-style: none;
+    text-align: center;
 }
 input{
     border-radius: 10px;
