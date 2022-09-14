@@ -1,3 +1,33 @@
 a {
     text-decoration: none;
 }
+
+.a{
+    background-color: #cee5f7;
+    border-radius: 5px;
+    font-size: 35px;
+    text-align: center;
+    border: #cee5f7;
+}
+
+.b{
+    background-color: lightgray;
+    border-radius: 5px;
+    border-style:double;
+}
+
+.c{
+    background-color: lightskyblue;
+    border-radius: 5px;
+    border-style: none;
+    text-align:center;
+}
+
+.d{
+    background-color: lightgreen;
+    border-radius: 5px;
+    border-style: none;
+}
+input{
+    border-radius: 10px;
+}
