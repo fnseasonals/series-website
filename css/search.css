@@ -1,20 +1,5 @@
-.main {
-    width: 250px;
-    border: 03px solid lightgreen;
-    padding: 08px;
-    border-radius: 30px;
+.main{
     text-align: center;
-}
-
-.main input{
-    background: transparent;
+    width: 500px;
     border: 0px;
-    outline: 0px;
-    width: 200px;
 }
-
-.icon-search{
-    color: blue;
-    font-size: 20px
-}
-
