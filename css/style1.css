@@ -11,6 +11,8 @@ a {
 }
 
 .b{
+    display: flex;
+    justify-content: center;
     border-radius: 5px;
     border-style:double;
 }

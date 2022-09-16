@@ -1,0 +1,16 @@
+.main{
+    padding: 5px;
+    width: 250px;
+    border: 03px solid#009933;
+    border-radius: 30px;
+}
+
+.main input{
+    width: 210px;
+    border: 0px;
+    outline: 0px;
+}
+.icon-search{
+    color: blue;
+    font-size: 20px;
+}
