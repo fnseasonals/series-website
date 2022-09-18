@@ -33,3 +33,38 @@ a {
 input{
     border-radius: 2px;
 }
+
+.menu{
+    width: 100%;
+    background: #142b47;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 60px;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu ul li a{
+    width: 150px;
+    color: #f2f2f2;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.menu li a:hover{
+    color: #fff;
+    opacity: 0.5;
+    font-size: 20px;
+}
