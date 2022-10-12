@@ -18,14 +18,14 @@ a {
 }
 
 .c{
-    background-color: lightskyblue;
+    background-image: linear-gradient(120deg, lightskyblue, #e310c7);
     border-radius: 5px;
     border-style: none;
     text-align:center;
 }
 
 .d{
-    background-color: lightgreen;
+    background-image: linear-gradient(120deg, lightgreen, lightskyblue);
     border-radius: 5px;
     border-style: none;
     text-align: center;
@@ -35,8 +35,8 @@ input{
 }
 
 .menu{
+    background-image: linear-gradient(120deg, #e310c7, #3e32a8);
     width: 100%;
-    background: #142b47;
     overflow: auto;
     display: flex;
     justify-content: center;
@@ -54,11 +54,11 @@ input{
 }
 
 .menu ul li a{
-    width: 150px;
+    width: 120px;
     color: #f2f2f2;
     display: block;
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     font-family: sans-serif;
     letter-spacing: 0.5px;
 }
@@ -66,5 +66,5 @@ input{
 .menu li a:hover{
     color: #fff;
     opacity: 0.5;
-    font-size: 20px;
+    font-size: 18px;
 }
