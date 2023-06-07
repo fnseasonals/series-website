@@ -1,83 +1,57 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>search</title>
-        <style>
-            form{
-                background-color: lightgreen;
-                width: 300px;
-                height: 35px;
-                border-radius: 5px;
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-            }
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssslide.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="slide-container">
+        <span class="slider-span" id="slider-span1"></span>
+        <span class="slider-span" id="slider-span2"></span>
+        <span class="slider-span" id="slider-span3"></span>
+        <span class="slider-span" id="slider-span4"></span>
+        <span class="slider-span" id="slider-span5"></span>
+        <span class="slider-span" id="slider-span6"></span>
+        <span class="slider-span" id="slider-span7"></span>
+        <span class="slider-span" id="slider-span8"></span>
 
-            input{
-                all: unset;
-                font-size: 16px system-ui;
-                color: #fff;
-                height: 100%;
-                width: 100%;
-                padding: 6px 10px;
-            }
-
-            ::placeholder{
-                color: #fff;
-                opacity: 0.9;
-            }
-
-            svg{
-                color: blue;
-                fill: currentColor;
-                width: 24px;
-                height: 24px;
-                font-size: 20px;
-                padding: 10px;
-            }
-
-            button{
-                all: unset;
-                cursor: pointer;
-                width: 44px;
-                height: 44px;
-            }
-        </style>
-    </head>
-    <body>
-        <fieldset><legend><b>Search for:</b></legend>
-            <form role="search" id="form">
-                <input type="search" id="query" name="q" placeholder="Search here..." aria-label="search through site content">
-                <button>
-                    <svg viewBox="0 0 1024 1024">
-                        <path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 
-                        0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 
-                        177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 
-                        218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z">
-                        </path>
-                    </svg>
-                </button>
-            </form>
-            <script>
-                const f = document.getElementById('form');
-                const q = document.getElementById('query');
-                const google = 'https://www.google.com/search?q=site%3A+';
-                const site = 'pagedart.com';
-                function submitted(event) {
-                    event.preventDefault();
-                    const url = goole + site + '+' + q.value;
-                    const win = window.open(url,'_blank');
-                    win.focus();
-                }
-                f.addEventListener('submit',submitted);
-            </script>
-        </fieldset>
-
-        <p>
-            <a href="FnTvShowSeries.html">test</a>
-        </p>
-    </body>
+        <div class="image-slider">
+            <div class="slide-div" id="slide-1">
+                <img src="images/atlantis.jpg" alt="" class="img" id="img1">
+                <a href="atlantis.html" class="button" id="button-1">Atlantis</a>
+            </div>
+            <div class="slide-div" id="slide2">
+                <img src="images/blacklist.jpg" alt="" class="img" id="img2">
+                <a href="" class="button" id="button-2"></a>
+            </div>
+            <div class="slide-div" id="slide3">
+                <img src="images/dark desire.jpg" alt="" class="img" id="img3">
+                <a href="dark desire.html" class="button" id="button-3"></a>
+            </div>
+            <div class="slide-div" id="slide4">
+                <img src="images/kyle xy.jpg" alt="" class="img" id="img4">
+                <a href="kyle xy.html" class="button" id="button-4">Kyle XY</a>
+            </div>
+            <div class="slide-div" id="slide5">
+                <img src="images/money heist.jpg" alt="" class="img" id="img5">
+                <a href="money heist.html" class="button" id="button-5"></a>
+            </div>
+            <div class="slide-div" id="slide6">
+                <img src="images/stranger things.jpg" alt="" class="img" id="img6">
+                <a href="stranger things.html" class="button" id="button-6"></a>
+            </div>
+            <div class="slide-div" id="slide7">
+                <img src="images/atlantis.jpg" alt="" class="img" id="img7">
+                <a href="#slider-span7" class="button" id="button-7"></a>
+            </div>
+            <div class="slide-div" id="slide8">
+                <img src="images/atlantis.jpg" alt="" class="img" id="img8">
+                <a href="#slider-span8" class="button" id="button-8"></a>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
