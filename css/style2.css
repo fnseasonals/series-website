@@ -1,7 +1,55 @@
 .bg-color{
-    background-image: linear-gradient(120deg, skyblue, lightgreen);
+    background-image: linear-gradient(120deg, skyblue, #c3df91, lightgreen);
     font-size: 20px;
+    border-radius: 3px;
+    width: 50%;
+    text-align: center;
 }
+
+.paragraph{
+    background-image: linear-gradient(120deg, skyblue, #c3df91, lightgreen);
+    font-size: 100%;
+    border-radius: 3px;
+    width: 100%;
+    text-align: left;
+}
+
+.paragraph1{
+    background-image: linear-gradient(120deg, skyblue, #c3df91, lightgreen);
+    font-size: 20px;
+    border-radius: 3px;
+    width: 45%;
+    text-align: center;
+}
+
 .bg-color a{
     margin-top: 0;
+}
+
+.comment{
+    border-top-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-color: azure;
+    background-color: azure;
+}
+
+.logo{
+    width: 100%; 
+    height: 50px;
+    border-radius: 5px;
+}
+
+.col{
+    float: left;
+    width: 11.5%;
+    padding: 5px;
+    
+    align-items: center;
+    float: left;
+}
+
+.ro::after{
+    content: "";
+    display: table;
+    clear: both;
 }
