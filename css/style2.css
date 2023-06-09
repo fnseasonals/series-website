@@ -43,7 +43,6 @@
     float: left;
     width: 11.5%;
     padding: 5px;
-    
     align-items: center;
     float: left;
 }
@@ -52,4 +51,12 @@
     content: "";
     display: table;
     clear: both;
+}
+
+.wrap{
+    white-space: nowrap;
+    overflow: hidden;
+    width: 80%;
+    color: white;
+    text-overflow: ellipsis;
 }
